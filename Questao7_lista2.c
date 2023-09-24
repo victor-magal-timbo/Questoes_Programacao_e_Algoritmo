@@ -6,7 +6,8 @@
 (b) Calcule a soma de todos os elementos desse vetor;
 (c) Conte quantos deles representam lucro (valores positivos).
 
-float fl[8];
+void QuestoesPA(){
+    float fl[8];
     float soma;
     int i = 0, cont = 0;
     for(i=0;i<8;i++)
@@ -21,3 +22,4 @@ float fl[8];
         system("cls");
     }
     printf("\n%d filiais estao dando lucro.\n%.2f\n", cont, soma);
+}
